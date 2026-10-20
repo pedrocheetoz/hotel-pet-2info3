@@ -25,7 +25,17 @@ const router = createRouter({
     {
       path: '/tutores',
       name: 'tutoresView',
-      component: () => import('../views/TutorView.vue')
+      component: () => import('../views/TutoresView.vue'),
+    },
+    {
+      path: '/tutores/novo',
+      name: 'novo-tutor',
+      component: () => import('../views/AddTutorView.vue'),
+    },
+    {
+      path: '/tutores/:id',
+      name: 'detalhes-tutor',
+      component: () => import('../views/TutorDetailsView.vue'),
     },
   ],
 });

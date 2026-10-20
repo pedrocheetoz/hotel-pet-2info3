@@ -1,12 +1,11 @@
 <template>
+  <div >
   <h1>
-    Penis
+    Tutores
   </h1>
-  <div
-  v-for="tutor in tutores" :key="tutor.id">
-  
+  <p></p>
+</div>
 
-  </div>
 
 </template>
 <script setup>
